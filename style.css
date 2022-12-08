@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 200vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% -20.71%, #00aaff71 0, #00aaff80 5%, #00a2ff75 10%, #0099ff81 15%, #0095ff77 20%, #0088ff73 25%, #5f7fff71 30%, #9771ff7a 35%, #be62ff80 40%, #d951ff7a 45%, #f23cf27c 50%, #ff1fdd75 55%, #ff00c871 60%, #ff00ae75 65%, #ff009971 70%, #ff008083 75%, #ff006a81 80%, #ff005580 85%, #ff123e88 90%, #ff34257a 95%, #ff48007a 100%), url(mos-design-19AvLzPOGPo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: .1px;
+}
+
+.titulo {
+    text-shadow: 0px 0px 13px rgb(61, 61, 61) ;
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.parrafo {
+    font-size: 30px;
+    text-shadow: 0px 0px 13px rgb(61, 61, 61) ;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 55px;
+    background: #aa00aa;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    color: #aa00aa;
+    background: white;
+}
+
+
+
+svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
